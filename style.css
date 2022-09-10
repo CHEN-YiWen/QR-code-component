@@ -21,19 +21,19 @@ body{
     background-color: var(--Light-gray);
 }
 
-main{
+.card{
     background-color: var(--White);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    width: 300px;
+    max-width: 300px;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 img{
-    width: 280px;
-    height: 280px;
-    margin-top: 10px;
+    width: 100%;
     border-radius: 10px;
 
 }
